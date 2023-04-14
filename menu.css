@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'source code pro', Calibri, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #142857;
+    width: 100%;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: RGBa(83, 134, 252, 0.15);
+    border-top: 5px solid RGBa(83, 134, 252, 0.85);
+}
+
+nav li:hover a {
+    padding: 15px 30px 20px 30px;
+}
